@@ -22,8 +22,8 @@ def volumeOfSphere(r : Double) : Double ={
 val volume = volumeOfSphere(5)
 
 //Question 04
-def discountedPrice(coverPrice : Double, discount :  Double) : Double = {
-    coverPrice*(1-discount)
+def discountedPrice(coverPrice : Double, discount :  Double, numOfcopies: Int) : Double = {
+    coverPrice*(1-discount)*numOfCopies
 }
 
 def totalShipping(numOfCopies: Int): Double = {
